@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Четвертая - опрос</title>
+  </head>
+  <body>
+    <header>
+      <h1>Четвертая страница — Опрос</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">первая</a></li>
+          <li><a href="page1.html">вторая</a></li>
+          <li><a href="page2.html">третья</a></li>
+          <li><a href="page3.html">четвертая</a></li>
+          <li><a href="page4.html">пятая</a></li>
+          <li><a href="page5.html">шестая</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p>Пожалуйста, уделите немного времени, чтобы заполнить наш опрос ниже.</p>
+
+      <form action="#" method="post">
+        <p>Часто ли вы посещаете этот сайт?</p>
+        <label><input type="radio" name="visit" value="yes"> Да</label><br>
+        <label><input type="radio" name="visit" value="no"> Нет</label><br><br>
+
+        <label for="age">Ваш возраст:</label><br>
+        <input type="number" id="age" name="age" min="0"><br><br>
+
+        <label for="notes">Любые заметки:</label><br>
+        <textarea id="notes" name="notes" rows="3" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Send Survey">
+      </form>
+    </main>
+
+    <footer>
+      <p>вернуться к <a href="index.html">первой странице</a>.</p>
+    </footer>
+  </body>
+</html>
